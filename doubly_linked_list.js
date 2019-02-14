@@ -64,9 +64,11 @@ class DoublyLinkedList {
         current.prev.next = current.next;
         current.next.prev = current.prev;
         console.log(`Index ${i} with data ${current.data} has been removed`);
+        this.size--;
         return;
       }
     }
+
     console.log(`Index ${index} not found`);
   }
 
