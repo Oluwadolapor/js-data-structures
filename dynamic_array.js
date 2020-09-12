@@ -135,4 +135,4 @@ myArr.set(20, 3);
 myArr.set(3, 4);
 myArr.isEmpty();
 myArr.clear();
-let myArr2 = new dynamicArray("not a number");
+let myArr2 = new dynamicArray("not a number"); // An error is expected here.
